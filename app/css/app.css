@@ -1,0 +1,10 @@
+/* app css stylesheet */
+body {
+	background: #1D1D1D;
+	color: #fcfcfc;
+}
+aside {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
