@@ -6,13 +6,21 @@
   <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
-	<aside id="controls"></aside>
+	<aside id="controls">
+		<input type="text"></input>
+		<div ng-show="displayStatusText"></div>
+		<div class="buttons"></div>
+		Upper-right: Tiny status text (default: off) showint time to next update
+		+ Button to add new streams
+		Settings gear icon
+	</aside>
 	<section id="photostreams-container">
 		Get each photo and add it here
 		On hover, show the source, and the URL
 		and any metadata like the username
 	</section>
 
+  <footer>Icons courtesy <a href="pixel-mixer.com">Pixel Mixer</a></footer>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   <script src="lib/angular/angular.js"></script>
   <script src="js/app.js"></script>

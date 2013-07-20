@@ -7,4 +7,32 @@ aside {
 	position: absolute;
 	top: 20px;
 	right: 30px;
+	background: #686868; /* Old browsers */
+	background: -moz-linear-gradient(top,  #686868 0%, #494949 37%, #141414 38%, #101010 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#686868), color-stop(37%,#494949), color-stop(38%,#141414), color-stop(100%,#101010)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #686868 0%,#494949 37%,#141414 38%,#101010 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #686868 0%,#494949 37%,#141414 38%,#101010 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #686868 0%,#494949 37%,#141414 38%,#101010 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #686868 0%,#494949 37%,#141414 38%,#101010 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#101010',GradientType=0 ); /* IE6-9 */
+}
+aside input {
+	border-radius: 8px;
+	padding: 10px 10px;
+	border: 1px solid #000;
+	outline: 0;
+	box-shadow: 0 0 5px #aaa inset;
+	background: #f5f5f5;
+}
+aside input:hover, aside input:focus {
+	box-shadow: 0 0 3px #aaa, 0 0 5px #aaa inset;
+	background: #fff;
+	
+}
+section {
+	margin: 0; width: 100%;
+}
+footer {
+	font-size: 9px;
+	color: #999;
 }
