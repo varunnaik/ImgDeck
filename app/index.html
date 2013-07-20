@@ -15,7 +15,9 @@
 		Settings gear icon
 	</aside>
 	<section id="photostreams-container">
-
+		<section id="main-photostream-area" ng-controller="photostreamController">
+			<div class="photo" ng-repeat="photo in photos" ng-cloak>{{ photo.name }}</div>
+		</section>
 	</section>
 
   <footer>Project on Github: <a href="https://github.com/varunnaik/ImgDeck" title="ImgDeck: View multiple photostreams">https://github.com/varunnaik/ImgDeck</a>. Icons courtesy <a href="pixel-mixer.com">Pixel Mixer</a></footer>
@@ -27,5 +29,6 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+  <script src="js/photo-services.js"></script>
 </body>
 </html>
